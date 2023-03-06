@@ -1,6 +1,9 @@
 import './App.css'
 import {Header, IconLink} from './components/Header.jsx'
 import {PROJECTS, KNOWLEDGE} from './constants.js'
+import PortfolioSvg from '/portfolio.svg'
+
+const pdfPortfolio = 'https://www.canva.com/design/DAFcc-zuYcU/VlfoBZ5sISVq2qro62-5tw/view?utm_content=DAFcc-zuYcU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
 
 const Projects = () => {
   return (
@@ -94,6 +97,14 @@ function App() {
   return (
     <>
       <Header></Header>
+      <div className="portfolio-header-icon">
+        <IconLink
+          alt='Descargar Portfolio'
+          src={PortfolioSvg}
+          href={pdfPortfolio}
+          classN='portfolio-icon'
+        />
+      </div>
       <main>
         <section className="home-main-content">
           <h1>Hi I'm <span className="myName">RickFeR</span> <span className="emoji-header">🏋🏼‍♂️</span></h1>
