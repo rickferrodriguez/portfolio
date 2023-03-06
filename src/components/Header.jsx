@@ -1,6 +1,6 @@
 const Link = ({text, id=''}) => {
   return (
-      <a onClick={() => window.location.replace(`/#${id}`)} 
+      <a onClick={() => window.location.replace(`portfolio/#${id}`)} 
       className="link"><p>{text}</p></a>
   )
 }
