@@ -339,3 +339,96 @@ h2 {
 }
 
 
+@media (max-width: 600px) {
+
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .home-principal-text {
+    padding: 0.2rem;
+  }
+
+  .navbar {
+    position:inherit
+  }
+
+  #root {
+    position:relative;
+  }
+
+  .social-header {
+    /* top: 82px; */
+    bottom:25px;
+    left: 42%;
+    right: 42%;
+  }
+
+  .block-know {
+    padding: .5rem;
+    height: 100%;
+  }
+
+  .knowledge {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    padding: 0.2rem;
+    height: 100%
+  }
+
+  .knowledge .block-know-card {
+    width: 100%;
+    height: 100%;
+    padding: .5rem 0 .5rem 0;
+  }
+
+  .knowledge .block-know-card:hover {
+    padding: .5rem 0 .5rem 0;
+  }
+
+  .know-img-container {
+    width: 28%;
+  }
+
+  .know-img-container img {
+    align-self: center;
+    width: 70%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    padding: 5px;
+    height: 50px;
+    border-radius:.5rem;
+  }
+
+  .know-title h3{
+    padding-top: 10px
+  }
+
+  .array-tec {
+    grid-template-columns: repeat(2, 1fr);
+    padding: .5rem;
+  }
+  .tec-img-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tec-img {
+    width: 65px
+  }
+
+  .tec-img:hover{
+    padding: 2px;
+  }
+  .projects {
+    height: 100%;
+  }
+  .projects-container {
+    height:100%;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 4rem;
+  }
+}
