@@ -3,38 +3,44 @@ export const PROJECTS = [
     id:1,
     name: 'Tic Tac Toe Game',
     img: './tic-tac-toe.png',
-    href: ''
+    href: '',
+    repo:'https://github.com/rickferrodriguez/Cursos-React/tree/main/02-tic-tac-toe'
   },
   {
     id:2,
     name: 'Twitter Card',
     img: './twitter.png',
-    href: ''
+    href: '',
+    repo:'https://github.com/rickferrodriguez/Cursos/tree/master/React/00-hola-mundo'
   },
   {
     id:3,
     name: 'Password Generator',
     img: './passwordgen.png',
-    href: 'https://rickferrodriguez.github.io/Desafios/JavaClass/passGenerator/index.html'
+    href: 'https://rickferrodriguez.github.io/Desafios/JavaClass/passGenerator/index.html',
+    repo:'https://github.com/rickferrodriguez/Desafios/tree/master/JavaClass'
   },
   {
     id:4,
     name: 'Demo Presupuestos',
     img: './presupuesto.png',
-    href: 'https://rickferrodriguez.github.io/Desafios/JavaClass/Presupuesto/index.html'
+    href: 'https://rickferrodriguez.github.io/Desafios/JavaClass/Presupuesto/index.html',
+    repo:'https://github.com/rickferrodriguez/Desafios/tree/master/JavaClass'
   },
 
   {
     id:5,
     name: 'Demo Simple BlackJack',
     img: './simpleblack.png',
-    href: 'https://rickferrodriguez.github.io/Desafios/JavaClass/blackjack/index.html'
+    href: 'https://rickferrodriguez.github.io/Desafios/JavaClass/blackjack/index.html',
+    repo:'https://github.com/rickferrodriguez/Desafios/tree/master/JavaClass'
   },
   {
     id:6,
     name: 'FrontEndMentor',
     img: './frontend.png',
-    href: 'https://rickferrodriguez.github.io/Desafios/frontEndMentor/product-preview/index.html'
+    href: 'https://rickferrodriguez.github.io/Desafios/frontEndMentor/product-preview/index.html',
+    repo:'https://github.com/rickferrodriguez/Desafios/tree/master/frontEndMentor'
   },
 ]
 

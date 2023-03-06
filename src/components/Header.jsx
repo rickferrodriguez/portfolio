@@ -1,7 +1,12 @@
-const Link = ({text, id=''}) => {
+import {Link} from 'react-scroll'
+
+const Alink = ({text, id=''}) => {
+  // <a onClick={() => window.location.replace(`portfolio/#${id}`)} 
+  //   className="link"><p>{text}</p></a>
   return (
-      <a onClick={() => window.location.replace(`portfolio/#${id}`)} 
-      className="link"><p>{text}</p></a>
+    <Link 
+      className="link"
+      to={id} smooth={true} duration={100}><p>{text}</p></Link>
   )
 }
 
@@ -25,9 +30,9 @@ export const Header = () => {
     <header>
       <nav className="navbar">
         <div className="nav-link-container">
-          <Link text='Home' ></Link>
-          <Link text='Tecnologies' id='knowledge' ></Link>
-          <Link text='Projects' id='projects'></Link>
+          <Alink text='Home' ></Alink>
+          <Alink text='Tecnologies' id='knowledge' ></Alink>
+          <Alink text='Projects' id='projects'></Alink>
         </div>
         <ul className='social-header'>
           <li className="social-header-container">

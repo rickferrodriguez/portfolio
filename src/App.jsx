@@ -20,7 +20,7 @@ const Projects = () => {
                   classN="social-project-icon" 
                   alt='GitHub' 
                   src='https://www.svgrepo.com/show/473620/github.svg' 
-                  href='https://github.com/rickferrodriguez'
+                  href={pr.repo}
                 />
                 <IconLink 
                   classN="social-project-icon" 
