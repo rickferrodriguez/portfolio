@@ -37,12 +37,14 @@ html {
 }
 
 .portfolio-header-icon {
-  position:sticky;
-  top: 80px;
-  left: 0;
-  width: 50px;
+  position:fixed;
+  display: flex;
+  justify-content: center;
+  top: 35px;
+  left: 17%;
+  width: 51px;
   border-radius: 50%;
-  background-color:var(--clr-primary-300);
+  background-color:var(--clr-secon-green-light);
 }
 
 .portfolio-icon {
@@ -287,6 +289,10 @@ h2 {
   .projects-container {
     padding: 0;
   }
+
+  .portfolio-header-icon {
+    left: 5%
+  }
 }
 
 
@@ -356,9 +362,20 @@ h2 {
 
 @media (max-width: 600px) {
 
+  .portfolio-header-icon {
+    top: 11.5%;
+    left: 45%;
+    right: 45%;
+    position: absolute;
+  }
 
   h2 {
     font-size: 30px;
+  }
+
+  .home-main-content {
+    margin-top: 8rem;
+    margin-bottom: 16rem;
   }
 
   .home-principal-text {
