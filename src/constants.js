@@ -3,7 +3,7 @@ export const PROJECTS = [
     id:1,
     name: 'Tic Tac Toe Game',
     img: './tic-tac-toe.png',
-    href: '',
+    href: 'https://rickferrodriguez.github.io/Tic-Tac-Toe/',
     repo:'https://github.com/rickferrodriguez/Cursos-React/tree/main/02-tic-tac-toe'
   },
   {
