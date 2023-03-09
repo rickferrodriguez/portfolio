@@ -8,6 +8,18 @@
   --clr-secondary-red-l: #E6644C;
   --clr-secon-green-brown: #4C4E31;
   --clr-secon-green-light: #B2B553;
+
+  --clr-red-gradient:-webkit-linear-gradient(45deg,
+  hsl(2deg 75% 46%) 0%,
+  hsl(11deg 78% 47%) 11%,
+  hsl(17deg 80% 48%) 22%,
+  hsl(22deg 82% 48%) 33%,
+  hsl(26deg 84% 49%) 44%,
+  hsl(30deg 85% 50%) 56%,
+  hsl(33deg 88% 52%) 67%,
+  hsl(36deg 91% 54%) 78%,
+  hsl(39deg 93% 56%) 89%,
+  hsl(42deg 95% 58%) 100%);
 }
 
 html {
@@ -28,7 +40,14 @@ html {
 }
 
 .myName {
-  color: var(--clr-secondary-red-l);
+  /* color: var(--clr-secondary-red-l); */
+  margin: 0 auto;
+  padding-top: 1.6rem;
+  font-size: 58px;
+  height: 80px;
+  background: var(--clr-red-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .myName:hover {
@@ -121,7 +140,7 @@ html {
 
 .link p {
   align-self: center;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .home-main-content {
