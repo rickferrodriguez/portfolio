@@ -1,6 +1,6 @@
 import { Link } from 'react-scroll'
 
-const Alink = ({ text, id = '' }) => {
+const NavScroll = ({ text, id = '' }) => {
   // <a onClick={() => window.location.replace(`portfolio/#${id}`)}
   //   className="link"><p>{text}</p></a>
   return (
@@ -31,9 +31,9 @@ export const Header = () => {
     <header>
       <nav className='navbar'>
         <div className='nav-link-container'>
-          <Alink text='Home' />
-          <Alink text='Tecnologies' id='knowledge' />
-          <Alink text='Projects' id='projects' />
+          <NavScroll text='Home' />
+          <NavScroll text='Tecnologies' id='knowledge' />
+          <NavScroll text='Projects' id='projects' />
         </div>
         <ul className='social-header'>
           <li className='social-header-container'>

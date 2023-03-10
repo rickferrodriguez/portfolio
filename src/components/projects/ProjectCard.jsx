@@ -1,5 +1,3 @@
-import { IconLink } from '../header/Header.jsx'
-
 export const ProjectCard = ({ name, repo, href, img, handleLink }) => {
   const handleClick = () => {
     handleLink(href)
@@ -21,18 +19,8 @@ export const ProjectCard = ({ name, repo, href, img, handleLink }) => {
         />
       </header>
       <footer className='icon-project-container'>
-        <IconLink
-          classN='social-project-icon'
-          alt='GitHub'
-          src='https://www.svgrepo.com/show/473620/github.svg'
-          href={repo}
-        />
-        <IconLink
-          classN='social-project-icon'
-          alt='GitHub'
-          src='https://www.svgrepo.com/show/412040/see.svg'
-          href={href}
-        />
+        <a className='project-link' href={repo} target='_blank' rel='noreferrer'>View code</a>
+        <a className='project-link' href={href} target='_blank' rel='noreferrer'>Visit site</a>
       </footer>
     </article>
   )

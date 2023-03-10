@@ -22,7 +22,7 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    name: 'Demo Presupuestos',
+    name: 'Demo Budgets',
     img: './presupuesto.png',
     href: 'https://rickferrodriguez.github.io/Desafios/JavaClass/Presupuesto/index.html',
     repo: 'https://github.com/rickferrodriguez/Desafios/tree/master/JavaClass'
