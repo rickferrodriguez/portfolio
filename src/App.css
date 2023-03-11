@@ -72,6 +72,7 @@ html {
 
 .portfolio-header-icon {
   position:fixed;
+  cursor:pointer;
   display: flex;
   justify-content: center;
   top: 35px;
@@ -80,6 +81,25 @@ html {
   border-radius: 50%;
   background-color:var(--clr-secon-green-light);
   border: 1px solid transparent;
+  z-index: 0;
+}
+
+.portfolio-text {
+  position: absolute;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  z-index: -2;
+  font-size: 6px;
+  top: 0;
+  width: 51px;
+  height: 100%;
+  background-color: transparent;
+  color: transparent;
+  transition: transform .3s
 }
 
 .portfolio-header-icon:hover {
@@ -87,7 +107,22 @@ html {
   border: 1px solid var(--clr-primary-100)
 }
 
+.portfolio-header-icon:hover .portfolio-text {
+  transform: translate(16px);
+  background-color: var(--clr-secon-green-brown);
+  color: var(--clr-primary-100);
+  border-radius: 0 2rem 2rem 0;
+  border-width: 1px;
+  border-style: solid solid solid none;
+  border-color: var(--clr-primary-100);
+  font-size: 13px;
+  top: -1px;
+  width: 130px;
+  left: 13px;
+}
+
 .portfolio-icon {
+  z-index: 2;
   width: 30px;
   padding: 7px;
 }
@@ -399,9 +434,27 @@ h2 {
 
   .portfolio-header-icon {
     top: 12.8%;
-    left: 45%;
-    right: 45%;
+    left: 31%;
+    width: 150px;
     position: absolute;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 1rem;
+  }
+
+  .portfolio-text {
+    flex-grow: 1;
+    padding-right: 10px;
+    position: relative;
+    color: var(--clr-primary-100);
+    font-size: 13px
+  }
+
+  .portfolio-icon {
+    padding-left: 12px;
+    padding-right: 5px;
   }
 
   .home-main-content h1 .myName {
