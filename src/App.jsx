@@ -18,7 +18,11 @@ function App () {
           href={pdfPortfolio}
           classN='portfolio-icon'
         />
-        <a href={pdfPortfolio} target='_blank' className='portfolio-text' rel='noreferrer'>Revisar CV</a>
+        <a
+          href={pdfPortfolio}
+          target='_blank' className='portfolio-text' rel='noreferrer'
+        >Revisar CV
+        </a>
       </div>
       <main>
         <section className='home-main-content'>
