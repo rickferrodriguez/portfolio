@@ -102,24 +102,6 @@ html {
   transition: transform .3s
 }
 
-.portfolio-header-icon:hover {
-  background-color: var(--clr-secon-green-brown);
-  border: 1px solid var(--clr-primary-100)
-}
-
-.portfolio-header-icon:hover .portfolio-text {
-  transform: translate(16px);
-  background-color: var(--clr-secon-green-brown);
-  color: var(--clr-primary-100);
-  border-radius: 0 2rem 2rem 0;
-  border-width: 1px;
-  border-style: solid solid solid none;
-  border-color: var(--clr-primary-100);
-  font-size: 13px;
-  top: -1px;
-  width: 130px;
-  left: 13px;
-}
 
 .portfolio-icon {
   z-index: 2;
@@ -555,5 +537,26 @@ h2 {
     height:100%;
     grid-template-columns: repeat(1, 1fr);
     margin-bottom: 4rem;
+  }
+}
+
+@media (hover: hover) {
+  .portfolio-header-icon:hover {
+    background-color: var(--clr-secon-green-brown);
+    border: 1px solid var(--clr-primary-100)
+  }
+
+  .portfolio-header-icon:hover .portfolio-text {
+    transform: translate(16px);
+    background-color: var(--clr-secon-green-brown);
+    color: var(--clr-primary-100);
+    border-radius: 0 2rem 2rem 0;
+    border-width: 1px;
+    border-style: solid solid solid none;
+    border-color: var(--clr-primary-100);
+    font-size: 13px;
+    top: -1px;
+    width: 130px;
+    left: 13px;
   }
 }
