@@ -187,8 +187,31 @@ html {
 }
 
 .home-main-content {
-  margin-top: 6.2rem;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  gap: 3rem;
   text-align: center;
+  margin-top: 8rem;
+  height: 450px;
+  line-height: 2rem;
+}
+
+.home-text {
+  width: 700px;
+}
+
+.home-parragrafh {
+  font-size: 16px;
+}
+
+.img-avatar-container {
+  width: 300px;
+}
+
+.avatar {
+  width: 260px;
+  border-radius: 1rem;
 }
 
 .emoji-header {
@@ -196,6 +219,7 @@ html {
 }
 
 .home-principal-text{
+  color: var(--clr-primary-200);
   margin-top: 4rem;
   font-size: 26px;
   font-weight: 500;
@@ -414,13 +438,12 @@ h2 {
 
 
 @media (max-width: 600px) {
-
   .nav-link-container {
     width: 100%;
   }
 
   .portfolio-header-icon {
-    top: 12.8%;
+    top: 18.2%;
     left: 31%;
     width: 150px;
     position: absolute;
@@ -442,24 +465,35 @@ h2 {
   .portfolio-icon {
     padding-left: 12px;
     padding-right: 5px;
+    height: 100%;
   }
 
-  .home-main-content h1 .myName {
-    font-size: 48px;
+  .home-main-content {
+    margin-top:1rem;
+    margin-bottom:2rem;
+    flex-direction:column;
+    gap: 2px;
+    height: 100%;
+    line-height: 1.5;
+  }
+
+  .home-text{
+    width: 100%;
+  }
+
+  .home-main-content h1 ,.myName {
+    font-size: 40px;
   }
 
   h2 {
     font-size: 30px;
   }
 
-  .home-main-content {
-    margin-top: 8rem;
-    margin-bottom: 16rem;
-    line-height: 2rem;
-  }
 
   .home-principal-text {
-    padding: 0.2rem;
+    padding: 0 1rem 0 1rem;
+    font-size: 23px;
+    margin-top: 0;
   }
 
   .navbar {
@@ -485,7 +519,7 @@ h2 {
   .knowledge {
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 9rem;
     padding: 0.2rem;
     height: 100%
   }
