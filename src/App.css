@@ -1,6 +1,7 @@
 :root {
   --clr-primary-100: #ECDCAF;
   --clr-primary-150: #BDAE93;
+  --clr-primary-180: #47463F;
   --clr-primary-200: #E8B042;
   --clr-primary-300: #3C3D3C;
   --clr-primary-400: #32302F;
@@ -296,7 +297,6 @@ h2 {
 .icon-project-container{
   display: flex;
   gap: 10px;
-  color:black;
   justify-content: space-evenly;
 }
 
@@ -347,17 +347,18 @@ h2 {
 }
 
 .project-link {
-  color: var(--clr-primary-100);
+  color: var(--clr-primary-900);
+  background-color: var(--clr-primary-150) ;
+  border: 1px solid var(--clr-primary-100);
   font-weight: 500;
-  background-color: var(--clr-primary-300) ;
   padding: .3rem;
   width: 50%;
   border-radius: 1rem;
-  border: 1px solid var(--clr-primary-100)
 }
 
 .project-link:hover {
-  color: var(--clr-primary-200)
+  color: var(--clr-primary-100);
+  background-color: var(--clr-primary-180)
 }
 
 .array-tec {
