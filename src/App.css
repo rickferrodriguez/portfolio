@@ -202,7 +202,7 @@ html {
 }
 
 .home-parragrafh {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .img-avatar-container {
@@ -349,7 +349,7 @@ h2 {
 .project-link {
   color: var(--clr-primary-100);
   font-weight: 500;
-  background-color: var(--clr-secondary-red-l) ;
+  background-color: var(--clr-primary-300) ;
   padding: .3rem;
   width: 50%;
   border-radius: 1rem;
@@ -357,8 +357,7 @@ h2 {
 }
 
 .project-link:hover {
-  background-color: var(--clr-secondary-red);
-  color: var(--clr-primary-150)
+  color: var(--clr-primary-200)
 }
 
 .array-tec {
