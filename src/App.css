@@ -132,6 +132,11 @@ html {
   background-color: var(--clr-primary-300);
 }
 
+.social-header-container:nth-child(3) img {
+  padding: 1px;
+  width:40px;
+}
+
 .social-header-container:hover {
   background-color: var(--clr-primary-200);
   transition: .3s

@@ -1,8 +1,6 @@
 import { Link } from 'react-scroll'
 
 const NavScroll = ({ text, id = '' }) => {
-  // <a onClick={() => window.location.replace(`portfolio/#${id}`)}
-  //   className="link"><p>{text}</p></a>
   return (
     <Link
       className='link'
@@ -45,15 +43,15 @@ export const Header = () => {
           </li>
           <li className='social-header-container'>
             <IconLink
-              alt='GitHub'
+              alt='linkedin'
               src='https://www.svgrepo.com/show/103404/linkedin-logo.svg'
               href='https://www.linkedin.com/in/richard-rodriguez-13a334267/'
             />
           </li>
           <li className='social-header-container'>
             <IconLink
-              alt='GitHub'
-              src='https://www.svgrepo.com/show/303161/gmail-icon-logo.svg'
+              alt='Mail'
+              src='https://www.svgrepo.com/show/506669/mail.svg'
               href='mailto:richardfernandorodriguez@gmail.com'
             />
           </li>
