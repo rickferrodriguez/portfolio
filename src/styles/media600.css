@@ -1,0 +1,130 @@
+@media (max-width: 600px) {
+  .nav-link-container {
+    width: 100%;
+  }
+
+  .portfolio-header-icon {
+    top: 19.2%;
+    left: 31%;
+    width: 150px;
+    position: absolute;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 1rem;
+  }
+
+  .portfolio-text {
+    flex-grow: 1;
+    padding-right: 10px;
+    position: relative;
+    color: var(--clr-primary-100);
+    font-size: 13px
+  }
+
+  .portfolio-icon {
+    padding-left: 12px;
+    padding-right: 5px;
+    height: 100%;
+  }
+
+  .home-main-content {
+    margin-top:1rem;
+    margin-bottom:2rem;
+    flex-direction:column;
+    gap: 2px;
+    height: 100%;
+    line-height: 1.5;
+  }
+
+  .home-text{
+    width: 500px;
+    text-align: left;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  .home-main-content h1 ,.myName {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .navbar {
+    position:inherit
+  }
+
+  #root {
+    position:relative;
+  }
+
+  .social-header {
+    /* top: 82px; */
+    bottom:25px;
+    left: 42%;
+    right: 42%;
+  }
+
+  .block-know {
+    padding: .5rem;
+    height: 100%;
+  }
+
+  .knowledge {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9rem;
+    padding: 0.2rem;
+    height: 100%
+  }
+
+  .knowledge .block-know-card:hover {
+    padding: .5rem 0 .5rem 0;
+  }
+
+  .know-img-container {
+    width: 28%;
+  }
+
+  .know-img-container img {
+    align-self: center;
+    width: 70%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    padding: 5px;
+    height: 50px;
+    border-radius:.5rem;
+  }
+
+  .know-title h3{
+    padding-top: 10px
+  }
+
+  .array-tec {
+    grid-template-columns: repeat(2, 1fr);
+    padding: .5rem;
+  }
+  .tec-img-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tec-img {
+    width: 65px
+  }
+
+  .projects {
+    height: 100%;
+  }
+  .projects-container {
+    height:100%;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 4rem;
+  }
+}

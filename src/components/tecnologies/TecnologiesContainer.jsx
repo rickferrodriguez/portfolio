@@ -8,10 +8,6 @@ export function TecnologiesContainer ({ knowledge }) {
         <h2>KNOWLEDGE</h2>
         <ListKnowledge knowledge={knowledge} />
       </section>
-      <section className='block-tec'>
-        <h2>TECNOLOGIES</h2>
-        <ListTecnologies knowledge={knowledge} />
-      </section>
     </>
   )
 }

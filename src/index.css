@@ -2,7 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
 
-  --clr-primary-900: #1D2021;
+  --clr-primary-900: #16161D;
   --clr-primary-100: #ECDCAF;
 
   -webkit-font-smoothing: antialiased;
@@ -21,8 +21,9 @@ body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+main {
+  margin-top: 6em;
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
 }
-

@@ -33,29 +33,6 @@ export const Header = () => {
           <NavScroll text='Tecnologies' id='knowledge' />
           <NavScroll text='Projects' id='projects' />
         </div>
-        <ul className='social-header'>
-          <li className='social-header-container'>
-            <IconLink
-              alt='GitHub'
-              src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg'
-              href='https://github.com/rickferrodriguez'
-            />
-          </li>
-          <li className='social-header-container'>
-            <IconLink
-              alt='linkedin'
-              src='https://www.svgrepo.com/show/103404/linkedin-logo.svg'
-              href='https://www.linkedin.com/in/richard-rodriguez-13a334267/'
-            />
-          </li>
-          <li className='social-header-container'>
-            <IconLink
-              alt='Mail'
-              src='https://www.svgrepo.com/show/506669/mail.svg'
-              href='mailto:richardfernandorodriguez@gmail.com'
-            />
-          </li>
-        </ul>
       </nav>
 
     </header>
