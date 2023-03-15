@@ -10,17 +10,15 @@ const NavScroll = ({ text, id = '' }) => {
   )
 }
 
-export const IconLink = ({ alt, src, href, classN = 'social-header-icon' }) => {
+export const Image = ({ alt, src, classN = 'social-header-icon' }) => {
   return (
-    <a href={href} target='_blank' rel='noreferrer'>
-      <picture>
-        <img
-          className={classN}
-          alt={alt}
-          src={src}
-        />
-      </picture>
-    </a>
+    <picture>
+      <img
+        className={classN}
+        alt={alt}
+        src={src}
+      />
+    </picture>
   )
 }
 

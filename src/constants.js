@@ -110,4 +110,23 @@ export const KNOWLEDGE = [
   }
 ]
 
+export const IMGURL = [
+  {
+    id: 1,
+    name: 'portfolio',
+    title: 'View CV',
+    src: './portfolio.svg'
+  },
+  {
+    id: 2,
+    name: 'github',
+    src: './github.svg'
+  },
+  {
+    id: 3,
+    name: 'linkedink',
+    src: './linkedin.svg'
+  }
+]
+
 export const PDFPORTFOLIO = 'https://www.canva.com/design/DAFcc-zuYcU/VlfoBZ5sISVq2qro62-5tw/view?utm_content=DAFcc-zuYcU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
