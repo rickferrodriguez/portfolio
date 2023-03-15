@@ -12,19 +12,37 @@
     text-align: left;
   }
 
+  .main-h1 {
+    text-align: center;
+    font-size: 49px;
+  }
+
   h2 {
     font-size: 30px;
   }
 
+  .img-avatar-container {
+    align-self: center;
+  }
 
   .know-img-container img {
-    align-self: center;
-    width: 70%;
     aspect-ratio: 3/2;
     object-fit: contain;
-    padding: 5px;
     height: 50px;
     border-radius:.5rem;
+  }
+
+  .know-img {
+    background-color: transparent ;
+  }
+
+  .know-title {
+    display: none;
+  }
+
+  .block-know-card {
+    width: 90px;
+    padding: 0;
   }
 
   .projects-container {
