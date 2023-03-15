@@ -1,6 +1,7 @@
 import { Image } from '../header/Header.jsx'
+import myPicture from '/me.png'
 
-export function MainContent ({ pdfConstant, imgUrl }) {
+export function MainContent ({ imgUrl }) {
   return (
     <section className='home-main-content'>
       <div className='home-text'>
@@ -35,7 +36,7 @@ export function MainContent ({ pdfConstant, imgUrl }) {
       </div>
       <div className='img-avatar-container'>
         <picture>
-          <img className='avatar' src='/me.png' alt='Profile Picture' />
+          <img className='avatar' src={myPicture} alt='Profile Picture' />
         </picture>
       </div>
     </section>
