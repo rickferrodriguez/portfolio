@@ -115,18 +115,19 @@ export const IMGURL = [
     id: 1,
     name: 'portfolio',
     title: 'View CV',
-    src: './portfolio.svg'
+    src: './portfolio.svg',
+    html: 'https://www.canva.com/design/DAFcc-zuYcU/VlfoBZ5sISVq2qro62-5tw/view?utm_content=DAFcc-zuYcU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
   },
   {
     id: 2,
     name: 'github',
-    src: './github.svg'
+    src: './github.svg',
+    html: 'https://github.com/rickferrodriguez'
   },
   {
     id: 3,
     name: 'linkedink',
-    src: './linkedin.svg'
+    src: './linkedin.svg',
+    html: 'https://www.linkedin.com/in/richrodriguezdev/'
   }
 ]
-
-export const PDFPORTFOLIO = 'https://www.canva.com/design/DAFcc-zuYcU/VlfoBZ5sISVq2qro62-5tw/view?utm_content=DAFcc-zuYcU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'

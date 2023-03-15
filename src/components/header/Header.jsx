@@ -28,8 +28,8 @@ export const Header = () => {
       <nav className='navbar'>
         <div className='nav-link-container'>
           <NavScroll text='Home' />
-          <NavScroll text='Tecnologies' id='knowledge' />
           <NavScroll text='Projects' id='projects' />
+          <NavScroll text='Tecnologies' id='knowledge' />
         </div>
       </nav>
 

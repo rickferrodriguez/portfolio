@@ -16,11 +16,11 @@ export function MainContent ({ pdfConstant, imgUrl }) {
               <a
                 key={img.id}
                 className='social-header-link'
-                href={pdfConstant}
+                href={img.html}
                 target='_blank' rel='noreferrer'
               >
                 <Image
-                  alt='Descargar Portfolio'
+                  alt={img.name}
                   src={img.src}
                   classN='social-icon'
                 />
