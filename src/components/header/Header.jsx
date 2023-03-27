@@ -15,18 +15,6 @@ const NavScroll = ({ text, id = '' }) => {
   )
 }
 
-export const Image = ({ alt, src }) => {
-  return (
-    <picture>
-      <img
-        className='w-full max-w-[40px]'
-        alt={alt}
-        src={src}
-      />
-    </picture>
-  )
-}
-
 export const Header = () => {
   return (
     <header className='flex justify-center'>
