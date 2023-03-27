@@ -7,7 +7,7 @@ export function ListKnowledge ({ knowledge }) {
         filteredKnow.map((t) => (
           <article key={t.id} className='grid justify-center bg-boatYellow rounded-[1rem] py-4'>
             <img className='w-[80px]' src={t.img} alt='' />
-            <div className='hidden'>
+            <div className='hidden md:block'>
               <h3 className='tittle-3'>{t.nombre}</h3>
               <p className='p-themes'>{t.temas}</p>
             </div>
