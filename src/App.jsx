@@ -10,7 +10,7 @@ function App () {
       <Header />
       <main>
         <MainContent imgUrl={IMGURL} />
-        <section className='projects' id='projects'>
+        <section className='flex flex-col justify-center items-center' id='projects'>
           <ProjectContainer projects={PROJECTS} />
         </section>
         <section className='knowledge' id='knowledge'>

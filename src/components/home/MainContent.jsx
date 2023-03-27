@@ -21,38 +21,35 @@ export function MainContent ({ imgUrl }) {
         excellent user experience through performance and usability.
         Providing scalable and customized web solutions.
       </p>
-      <ul className='flex self-start gap-4 p-0'>
+      <ul className='flex gap-4 self-center'>
         {
           imgUrl.map(img => (
             <li
-              className='list-none bg-autumnGreen py-1 px-2 rounded-[1rem]'
+              className='list-none '
               key={img.id}
             >
-              {
+              <a
+                className='group display block no-underline bg-autumnGreen py-1 px-2 rounded-[1rem]
+                hover:bg-winterGreen ease-in duration-300'
+                href={img.html}
+                target='_blank' rel='noreferrer'
+              >
+                <img
+                  className='w-[40px]'
+                  src={img.src} alt={img.name}
+                />
+                {
                 img.title
                   ? (
-                    <a
-                      className='no-underline'
-                      href={img.html}
-                      target='_blank' rel='noreferrer'
-                    >
-                      <img className='w-[40px]' src={img.src} alt={img.name} />
-                      <span className='ml-1 align-[8px] text-black font-semibold'>
-                        {img.title}
-                      </span>
-                    </a>
+                    <span className='ml-1 align-[8px] text-black font-semibold'>
+                      {img.title}
+                    </span>
                     )
                   : (
-
-                    <a
-                      className='no-underline '
-                      href={img.html}
-                      target='_blank' rel='noreferrer'
-                    >
-                      <img className='w-[40px]' src={img.src} alt={img.name} />
-                    </a>
+                    <></>
                     )
-              }
+                }
+              </a>
             </li>
           ))
         }

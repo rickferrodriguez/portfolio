@@ -1,9 +1,6 @@
 import { ProjectCard } from './ProjectCard.jsx'
 
 export function ProjectContainer ({ projects }) {
-  const handleLink = (url) => {
-    return window.open(url)
-  }
   return (
     <>
       <h2>PROJECTS</h2>
@@ -16,7 +13,6 @@ export function ProjectContainer ({ projects }) {
               repo={pr.repo}
               img={pr.img}
               href={pr.href}
-              handleLink={handleLink}
             />
           ))
         }

@@ -1,27 +1,19 @@
-export const ProjectCard = ({ name, repo, href, img, handleLink }) => {
-  const handleClick = () => {
-    handleLink(href)
-  }
+export const ProjectCard = ({ name, repo, href, img }) => {
   return (
     <article
-      className='project-card'
+      className=''
     >
-      <header
-        className='project-card-header'
-        onClick={handleClick}
-      >
+      <div className='max-w-[330px] overflow-hidden flex justify-center rounded-[1rem]'>
         <img
-          className='project-image'
-          src={img} alt=''
+          className='w-[400px] aspect-[4/3] object-contain '
+          src={img} alt={name}
         />
-      </header>
-      <div className='project-card-name'>
-        <p>{name}</p>
       </div>
-      <footer className='icon-project-container'>
+      <p>{name}</p>
+      <section className='icon-project-container'>
         <a className='project-link' href={repo} target='_blank' rel='noreferrer'>View code</a>
         <a className='project-link' href={href} target='_blank' rel='noreferrer'>Visit site</a>
-      </footer>
+      </section>
     </article>
   )
 }
