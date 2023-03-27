@@ -1,5 +1,3 @@
-import './App.css'
-import './styles/media600.css'
 import { Header } from './components/header/Header.jsx'
 import { PROJECTS, KNOWLEDGE, IMGURL } from './constants.js'
 import { MainContent } from './components/home/MainContent.jsx'

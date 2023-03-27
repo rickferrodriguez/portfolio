@@ -3,9 +3,14 @@ import { Link } from 'react-scroll'
 const NavScroll = ({ text, id = '' }) => {
   return (
     <Link
-      className='link'
+      className='w-full'
       to={id} smooth duration={100}
-    ><p>{text}</p>
+    >
+      <p className='border text-center border-solid border-transparent cursor-pointer py-3 m-0 flex-grow
+      hover:border-solid hover:border-oldWhite rounded-full  hover:text-roninYellow  '
+      >
+        {text}
+      </p>
     </Link>
   )
 }
@@ -24,13 +29,13 @@ export const Image = ({ alt, src, classN = 'social-header-icon' }) => {
 
 export const Header = () => {
   return (
-    <header>
-      <nav className='navbar'>
-        <div className='nav-link-container'>
-          <NavScroll text='Home' />
-          <NavScroll text='Projects' id='projects' />
-          <NavScroll text='Tecnologies' id='knowledge' />
-        </div>
+    <header className='flex justify-center'>
+      <nav className=' p-2 max-w-[400px] w-full flex gap-2 border border-solid border-oldWhite
+        rounded-full'
+      >
+        <NavScroll text='Home' />
+        <NavScroll text='Projects' id='projects' />
+        <NavScroll text='Tecnologies' id='knowledge' />
       </nav>
 
     </header>
