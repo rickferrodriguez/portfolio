@@ -4,7 +4,7 @@ export function ProjectContainer ({ projects }) {
   return (
     <>
       <h2>PROJECTS</h2>
-      <div className='projects-container'>
+      <div className='flex flex-col gap-10'>
         {
           projects.map((pr) => (
             <ProjectCard

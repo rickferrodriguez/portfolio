@@ -8,7 +8,7 @@ function App () {
   return (
     <>
       <Header />
-      <main>
+      <main className='flex flex-col gap-[80px]'>
         <MainContent imgUrl={IMGURL} />
         <section className='flex flex-col justify-center items-center' id='projects'>
           <ProjectContainer projects={PROJECTS} />
