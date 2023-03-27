@@ -6,22 +6,23 @@ const urlLinkedin = 'https://www.linkedin.com/in/richrodriguezdev/'
 export function MainContent ({ imgUrl }) {
   return (
     <section className=''>
-      <h1 className='text-5xl flex gap-3'>
+      <h1 className='text-5xl flex items-end gap-3 align-text-bottom h-[100px] m-0 mb-4'>
         Hi I'm
         <a
           href={urlLinkedin} target='_blank' rel='noreferrer'
-          className='no-underline'
+          className='no-underline text-transparent bg-clip-text bg-gradient-to-r from-autumnRed to-gruvYellow
+          hover:from-winterGreen hover:to-autumnGreen'
         >
           RickFeR
         </a>
-        <span className='emoji-header'>🏋🏼‍♂️</span>
+        <span className='h-full inline-block align-bottom'>🏋🏼‍♂️</span>
       </h1>
-      <p className='home-parragrafh'>+2 years of experience as a
+      <p className='m-0'>+2 years of experience as a
         developer. Delivering premium digital solutions. Achieving
         excellent user experience through performance and usability.
         Providing scalable and customized web solutions.
       </p>
-      <ul className='social-section'>
+      <ul className='social-section p-0'>
         {
           imgUrl.map(img => (
             <li

@@ -18,7 +18,8 @@ module.exports = {
         winterRed: '#71322D',
         autumnRed: '#E6644C',
         winterGreen: '#4C4E31',
-        autumnGreen: '#B2B553'
+        autumnGreen: '#B2B553',
+        gruvYellow: '#fabd2f'
       }
     }
   },
