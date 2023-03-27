@@ -3,11 +3,11 @@ import { Link } from 'react-scroll'
 const NavScroll = ({ text, id = '' }) => {
   return (
     <Link
-      className='w-full'
+      className='w-full cursor-pointer'
       to={id} smooth duration={100}
     >
-      <p className='border text-center border-solid border-transparent cursor-pointer py-3 m-0 flex-grow
-      hover:border-solid hover:border-oldWhite rounded-full  hover:text-roninYellow  '
+      <p className=' text-center  py-3 m-0 flex-grow
+       hover:bg-winterYellow rounded-full  hover:text-roninYellow  transition duration-300'
       >
         {text}
       </p>
@@ -15,11 +15,11 @@ const NavScroll = ({ text, id = '' }) => {
   )
 }
 
-export const Image = ({ alt, src, classN = 'social-header-icon' }) => {
+export const Image = ({ alt, src }) => {
   return (
     <picture>
       <img
-        className={classN}
+        className='w-full max-w-[40px]'
         alt={alt}
         src={src}
       />
