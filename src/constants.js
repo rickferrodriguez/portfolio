@@ -8,10 +8,10 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    name: 'Twitter Card',
-    img: './twitter.png',
-    href: '',
-    repo: 'https://github.com/rickferrodriguez/Cursos/tree/master/React/00-hola-mundo'
+    name: 'Movie Finder',
+    img: './movie-finder.png',
+    href: 'https://movie-finder-rick.netlify.app/',
+    repo: 'https://github.com/rickferrodriguez/Cursos-React/tree/main/Pruebas-Tecnicas/peliculas-tailwind'
   },
   {
     id: 3,
