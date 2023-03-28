@@ -1,7 +1,7 @@
 export const ProjectCard = ({ name, repo, href, img }) => {
   return (
-    <article className='w-full flex flex-col justify-center items-center'>
-      <a className='max-w-[330px] flex justify-center overflow-hidden rounded-[1rem]' href={href} target='_blank' rel='noreferrer'>
+    <article className='w-full flex flex-col gap-4 justify-center items-center bg-sumiInko1 rounded-[1rem]'>
+      <a className='max-w-[330px] flex justify-center overflow-hidden rounded-t-[1rem]' href={href} target='_blank' rel='noreferrer'>
         <img
           className='w-[400px] aspect-[4/3] object-contain '
           src={img} alt={name}
@@ -15,7 +15,7 @@ export const ProjectCard = ({ name, repo, href, img }) => {
         ].map(([title, ref], index) => (
           <a
             key={index}
-            className='text-sumiInko bg-oldWhite rounded-[1rem] py-1 px-4 mb-2 no-underline
+            className='text-sumiInko bg-oldWhite rounded-[1rem] py-1 px-4 mb-6 no-underline
               hover:bg-boatYellow'
             href={ref} target='_blank' rel='noreferrer'
           >

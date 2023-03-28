@@ -16,6 +16,7 @@ module.exports = {
         roninYellow: '#FF9E3B',
         winterYellow: '#3C3D3C',
         sumiInko: '#16161D',
+        sumiInko1: '#1F1F28',
         winterRed: '#71322D',
         autumnRed: '#E6644C',
         winterGreen: '#4C4E31',
