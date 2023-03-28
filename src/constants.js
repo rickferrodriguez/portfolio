@@ -90,21 +90,21 @@ export const KNOWLEDGE = [
   {
     id: 7,
     nombre: 'Git',
-    temas: 'Consulting',
+    temas: 'Workflow',
     img: './git.png',
     type: 'know'
   },
   {
     id: 8,
     nombre: 'Neovim',
-    temas: 'Consulting',
+    temas: 'Workflow',
     img: './neovim.png',
     type: 'know'
   },
   {
     id: 9,
     nombre: 'Linux',
-    temas: 'Consulting',
+    temas: 'Workflow',
     img: './linux.png',
     type: 'know'
   }

@@ -3,8 +3,10 @@ import { ProjectCard } from './ProjectCard.jsx'
 export function ProjectContainer ({ projects }) {
   return (
     <>
-      <h2>PROJECTS</h2>
-      <div className='flex flex-col gap-10 md:grid md:grid-cols-3'>
+      <h2 className='text-3xl text-roninYellow mb-8'>PROJECTS</h2>
+      <div className='flex flex-col gap-10 md:grid md:grid-cols-2 md:gap-14
+        lg:grid lg:grid-cols-3 lg:gap-14'
+      >
         {
           projects.map((pr) => (
             <ProjectCard

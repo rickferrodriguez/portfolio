@@ -1,12 +1,12 @@
 export const ProjectCard = ({ name, repo, href, img }) => {
   return (
-    <article>
-      <header className='max-w-[330px] overflow-hidden flex justify-center rounded-[1rem] '>
+    <article className='w-full flex flex-col justify-center items-center'>
+      <a className='max-w-[330px] flex justify-center overflow-hidden rounded-[1rem]' href={href} target='_blank' rel='noreferrer'>
         <img
           className='w-[400px] aspect-[4/3] object-contain '
           src={img} alt={name}
         />
-      </header>
+      </a>
       <h3 className='text-lg text-center font-bold text-oldWhite m-1'>{name}</h3>
       <section className='flex gap-2 justify-center'>
         {[

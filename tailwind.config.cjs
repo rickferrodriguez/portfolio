@@ -12,6 +12,7 @@ module.exports = {
       colors: {
         oldWhite: '#DCD7BA',
         boatYellow: '#BDAE93',
+        fujiYellow: '#32302F',
         roninYellow: '#FF9E3B',
         winterYellow: '#3C3D3C',
         sumiInko: '#16161D',

@@ -58,7 +58,7 @@ export function MainContent ({ imgUrl }) {
           }
         </ul>
       </div>
-      <picture className='w-full order-first md:order-last grid justify-center'>
+      <picture className='w-3/4 order-first md:order-last grid justify-center'>
         <img className='w-64 rounded-[1rem]' src={myPicture} alt='Profile Picture' />
       </picture>
     </section>
