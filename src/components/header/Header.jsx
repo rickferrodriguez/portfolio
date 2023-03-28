@@ -4,7 +4,7 @@ const NavScroll = ({ text, id = '' }) => {
   return (
     <Link
       className='w-full cursor-pointer'
-      to={id} smooth duration={100}
+      to={id} smooth duration={500}
     >
       <p className=' text-center  py-3 m-0 flex-grow
        hover:bg-winterYellow rounded-full  hover:text-roninYellow  transition duration-300'
