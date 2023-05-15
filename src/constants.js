@@ -17,7 +17,7 @@ export const PROJECTS = [
   {
     id: 3,
     name: 'Shopping Cart',
-    img: '../public/shopping-cart.png',
+    img: './shopping-cart.png',
     href: 'https://shopping-cart-rick.netlify.app/',
     repo: 'https://github.com/rickferrodriguez/react-shopping-cart'
   },
