@@ -13,15 +13,23 @@ export const PROJECTS = [
     href: 'https://movie-finder-rick.netlify.app/',
     repo: 'https://github.com/rickferrodriguez/Cursos-React/tree/main/Pruebas-Tecnicas/peliculas-tailwind'
   },
+
   {
     id: 3,
+    name: 'Shopping Cart',
+    img: '../public/shopping-cart.png',
+    href: 'https://shopping-cart-rick.netlify.app/',
+    repo: 'https://github.com/rickferrodriguez/react-shopping-cart'
+  },
+  {
+    id: 4,
     name: 'Password Generator',
     img: './passwordgen.png',
     href: 'https://rickferrodriguez.github.io/Desafios/JavaClass/passGenerator/index.html',
     repo: 'https://github.com/rickferrodriguez/Desafios/tree/master/JavaClass'
   },
   {
-    id: 4,
+    id: 5,
     name: 'Demo Budgets',
     img: './presupuesto.png',
     href: 'https://rickferrodriguez.github.io/Desafios/JavaClass/Presupuesto/index.html',
@@ -29,18 +37,11 @@ export const PROJECTS = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: 'Demo Simple BlackJack',
     img: './simpleblack.png',
     href: 'https://rickferrodriguez.github.io/Desafios/JavaClass/blackjack/index.html',
     repo: 'https://github.com/rickferrodriguez/Desafios/tree/master/JavaClass'
-  },
-  {
-    id: 6,
-    name: 'FrontEndMentor',
-    img: './frontend.png',
-    href: 'https://rickferrodriguez.github.io/Desafios/frontEndMentor/product-preview/index.html',
-    repo: 'https://github.com/rickferrodriguez/Desafios/tree/master/frontEndMentor'
   }
 ]
 
